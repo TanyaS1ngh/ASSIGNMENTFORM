@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <title>Learning @ Sapient</title>
+<style>
+    span{color: crimson;}
+</style>
+</head>
+
+<body background="sapientimg.jpg">
+
+    <!-- <div class="jumbotron vertical-center"> -->
+        <div class="container left">
+            <!-- <div class="row"> -->
+                <div class="row mt-2">
+                    <h1 style="color: darkorange"><b>Registration Form</b></h1>
+                </div>
+                <div class="row mt-2">
+                    <label class="form-label  col-md-3" style="color: crimson"><b> <u>FirstName:</u> </b></label>
+                    <input type="text" class="form-control col-md-3" id="firstName" maxlength="20" required>
+                </div>
+                <div class="row mt-2">
+                    <label class="form-label  col-md-3" style="color: crimson"><b><u> LastName: </u></b></label>
+                    <input type="text" class="form-control col-md-3" id="lastName" maxlength="20" required>
+                </div>
+                <div class="row mt-2">
+                    <label class="form-label  col-md-3" style="color: crimson"><b> <u>Age</u></b> </label>
+                    <input type="text" class="form-control col-md-3" id="age" required>
+                </div>
+                <div class="row mt-2">
+                    <label class="form-label  col-md-3"style="color: crimson"> <b><u>Gender:</u> </b></label>
+                    </br>
+                    <input type="radio" id="male" ><b><span> Male</span></b>
+                    <input type="radio" id="female"><b> <span>Female</span></b>
+                </div>
+                <div class="row mt-2">
+                    <label class="form-label  col-md-3" style="color: crimson"> <b><u>Country:</u> </b></label>
+                    </br>
+                    <select style="width :100px" class="form-control col-md-3" id="country">
+                        <option value="default" > Select </option>
+                        <option value="India"> India </option>
+                        <option value="Australia"> Australia </option>
+                        <option value="Canada"> Canada</option>
+                        <option value="Sri Lanka"> Sri Lanka </option>
+                    </select>
+                </div>
+                <div class="row mt-4">
+                    <!-- <label class="form-label  col-md-3"> </label> </br>            -->
+                    <input class="offset-md-3" type="checkbox" id="checkBox" style="color: crimson"><span><b>I Agree to the terms and conditions.</b></span>
+                </div>
+                <div class="row mt-2">
+                    <label class="form-label col-md-1"> </label>
+                    <button class="offset-md-3 btn" type="button" onclick="submit()" id="submit" disabled> Submit</button>
+                </div>
+            </div>
+        </div>
+    <!-- </div> -->
+    <script src="formassgn.js"></script>
+
+</body>
+
+</html>
+
+<!-- for buttons use btn btn-primary danger success warning and info -->
+<!-- layouts -->
+
+
+
+
+
